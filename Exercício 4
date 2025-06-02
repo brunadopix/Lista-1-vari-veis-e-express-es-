@@ -1,0 +1,17 @@
+pop = int(input("Digite a população atual: "))
+taxa = float(input("Digite a taxa de crescimento (%): ")) / 100
+
+print("Projeção para os próximos 5 anos:")
+
+# Calcula e mostra cada ano
+pop1 = pop * (1 + taxa)
+pop2 = pop1 * (1 + taxa)
+pop3 = pop2 * (1 + taxa)
+pop4 = pop3 * (1 + taxa)
+pop5 = pop4 * (1 + taxa)
+
+print("1º ano:", int(pop1))
+print("2º ano:", int(pop2))
+print("3º ano:", int(pop3))
+print("4º ano:", int(pop4))
+print("5º ano:", int(pop5))
